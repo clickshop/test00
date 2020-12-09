@@ -4,8 +4,88 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd7621db5e1ea718918f523d389a09ae",
+    "content-hash": "07e67b626f79df16e91b7b2d46381265",
     "packages": [
+        {
+            "name": "amasty/base",
+            "version": "1.11.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.amasty.com/community/packages/base-1.11.0.zip"
+            },
+            "require": {
+                "php": "^7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\Base\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Amasty Base"
+        },
+        {
+            "name": "amasty/jet-theme",
+            "version": "1.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.amasty.com/community/packages/jet-theme-1.2.3.zip"
+            },
+            "require": {
+                "amasty/base": ">=1.10.11",
+                "php": "^7.1.0"
+            },
+            "suggest": {
+                "amasty/jet-theme-sample-data": "Install Jet Theme Sample Data to See All Features of Our Theme. After Install Just Run jettheme:sampledata:deploy --clean command (Be careful, this command will remove all your previous data from site).",
+                "amasty/module-jet-theme-mftf-2": "Install module-jet-theme-mftf-2 module to be able to run Jet Theme MFTF tests for Magento 2.3.6 and higher.",
+                "amasty/module-jet-theme-mftf-3": "Install module-jet-theme-mftf-3 module to be able to run Jet Theme MFTF tests for Magento 2.4.1 and higher."
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Amasty\\JetTheme\\": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Jet Theme module by Amasty"
+        },
+        {
+            "name": "amasty/theme-frontend-jet-theme",
+            "version": "1.2.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.amasty.com/community/packages/theme-frontend-jet-theme-1.2.3.zip"
+            },
+            "require": {
+                "amasty/base": ">=1.10.11",
+                "amasty/jet-theme": ">=1.2.3",
+                "magento/framework": "*",
+                "magento/theme-frontend-blank": "*",
+                "php": "^7.1.0"
+            },
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A"
+        },
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
             "version": "3.4.1-p3",
@@ -21970,6 +22050,5 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }

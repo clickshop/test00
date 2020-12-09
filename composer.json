@@ -11,6 +11,7 @@
         "sort-packages": true
     },
     "require": {
+        "amasty/theme-frontend-jet-theme": "^1.2",
         "magento/composer-root-update-plugin": "~1.0",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
@@ -86,12 +87,16 @@
     },
     "version": "2.3.6",
     "minimum-stability": "stable",
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        "amasty": {
+            "type": "composer",
+            "url": "https://composer.amasty.com/community/"
         }
-    ],
+    },
     "extra": {
         "magento-force": "override"
     }
