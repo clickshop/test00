@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Amasty Team
+ * @copyright Copyright (c) 2020 Amasty (https://www.amasty.com)
+ * @package Amasty_JetTheme
+ */
+-->
+<config>
+    <skin>amasty_jettheme</skin>
+    <report>
+        <action>print</action>
+        <subject>Store Debug Information</subject>
+        <email_address></email_address>
+        <trash>leave</trash>
+        <dir_nesting_level>0</dir_nesting_level>
+    </report>
+</config>
