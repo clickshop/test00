@@ -126,7 +126,7 @@
 ############################################
 ## Enable rewrites
 
-    Options +FollowSymLinks
+    #Options +FollowSymLinks
     RewriteEngine on
 
 ############################################
