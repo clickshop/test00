@@ -11,6 +11,11 @@
         "sort-packages": true
     },
     "require": {
+        "amasty/ajax-scroll": "^1.4",
+        "amasty/cart": "^1.9",
+        "amasty/mostviewed": "^2.9",
+        "amasty/rma": "^2.2",
+        "amasty/shopby": "^2.15",
         "amasty/theme-frontend-jet-theme": "^1.2",
         "magento/composer-root-update-plugin": "~1.0",
         "magento/module-bundle-sample-data": "100.3.*",
